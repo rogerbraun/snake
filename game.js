@@ -310,5 +310,9 @@ window.onload = function(){
                     } 
                   });
     };
-    load("START");
+
+    Crafty.load(['images/achievement.jpg'],
+        function() {
+          load("START");
+        });
 }
